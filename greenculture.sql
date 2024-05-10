@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Waktu pembuatan: 10 Bulan Mei 2024 pada 08.11
+-- Waktu pembuatan: 10 Bulan Mei 2024 pada 12.04
 -- Versi server: 10.4.27-MariaDB
 -- Versi PHP: 8.2.0
 
@@ -67,8 +67,8 @@ CREATE TABLE `artikel` (
 --
 
 INSERT INTO `artikel` (`id_artikel`, `judul`, `isi`, `gambar`, `status`, `id_akun`) VALUES
-(33, 'asdas', '<div>asdad</div>', '663cbf9a4db5f.png', 'Menunggu', 1),
-(34, 'asda', '<div>adad</div>', '663d9e74300e6.png', 'Disetujui', 2);
+(36, 'Menciptakan Masa Depan Hijau: Peristiwa Ramah Lingkungan di Samarinda', '<div>Samarinda, sebuah kota yang berada di tengah-tengah kegiatan industri dan pembangunan, saat ini menunjukkan peran yang semakin penting dalam memerangi perubahan iklim dan mendorong keberlanjutan. Dengan meningkatnya kesadaran akan dampak negatif perubahan iklim, kota ini telah mengadakan sejumlah peristiwa yang bertujuan untuk mengurangi emisi karbon dan mewujudkan masa depan yang lebih hijau.&nbsp;<br><br>Salah satu peristiwa terkemuka yang mengguncang Samarinda adalah \"Samarinda Eco Summit\". Acara ini menyatukan para pemikir, pemimpin bisnis, dan aktivis lingkungan untuk berdiskusi tentang solusi inovatif dalam mengatasi tantangan perubahan iklim. Dari strategi pengelolaan limbah hingga promosi energi terbarukan, peserta summit berbagi pengetahuan dan pengalaman untuk mendorong langkah-langkah konkret menuju keberlanjutan. Selain itu, Samarinda juga menggelar \"Hari Peduli Lingkungan\", sebuah acara tahunan yang menekankan pentingnya keterlibatan masyarakat dalam perlindungan lingkungan.&nbsp;<br><br>Dalam acara ini, warga diajak untuk membersihkan sungai-sungai dan pantai, menanam pohon, dan melakukan kegiatan lain yang bertujuan untuk memperindah dan menjaga kebersihan lingkungan sekitar. Kota ini juga menjadi tuan rumah bagi \"Pekan Hijau\", rangkaian acara selama seminggu penuh yang menyoroti gaya hidup berkelanjutan. Dari pasar produk organik hingga workshop daur ulang, acara ini memberikan wadah bagi warga untuk belajar dan berpartisipasi dalam praktik-praktik ramah lingkungan yang dapat mereka terapkan dalam kehidupan sehari-hari. Peristiwa-peristiwa seperti ini bukan hanya menginspirasi warga Samarinda untuk bertindak dalam melawan perubahan iklim, tetapi juga menjadi contoh bagi kota-kota lain di Indonesia dan di seluruh dunia. Dengan kolaborasi antara pemerintah, masyarakat, dan sektor swasta, Samarinda menunjukkan bahwa transformasi menuju masa depan hijau bukanlah impian yang jauh dari jangkauan, tetapi merupakan tujuan yang dapat dicapai melalui kerja keras dan inovasi yang berkelanjutan.</div>', '663ded0991fb2.png', 'Disetujui', 1),
+(37, 'Meminimalkan Jejak Karbon: Peristiwa Inovatif di Balikpapan', '<div><br>Balikpapan, sebuah kota yang dikenal dengan industri minyak dan gasnya, sekarang menjadi pusat perhatian karena upaya-upaya revolusionernya dalam memerangi perubahan iklim. Dengan peningkatan kesadaran akan pentingnya perlindungan lingkungan, kota ini telah meluncurkan serangkaian peristiwa inovatif yang bertujuan untuk mengurangi emisi karbon dan memperkuat keberlanjutan.<br><br></div><div>Salah satu peristiwa terbesar yang baru-baru ini menggetarkan Balikpapan adalah Konferensi Hijau \"Green Talks\". Konferensi ini bertujuan untuk mendatangkan pemikir dan pemimpin lingkungan dari seluruh dunia untuk berbagi pengetahuan, pengalaman, dan solusi dalam menghadapi tantangan perubahan iklim. Para peserta dari berbagai bidang, mulai dari ilmuwan lingkungan hingga aktivis masyarakat, berkumpul untuk merumuskan strategi bersama dalam mengurangi jejak karbon dan memperkuat ketahanan lingkungan.<br><br></div><div>Selain itu, Balikpapan juga menjadi tuan rumah bagi \"Hari Tanpa Kendaraan Motor\". Inisiatif ini mengajak warga untuk meninggalkan kendaraan bermesin dan beralih ke transportasi ramah lingkungan seperti sepeda, transportasi umum, dan berjalan kaki. Selama satu hari penuh, jalan-jalan utama di kota dipenuhi dengan kegiatan yang menarik, mulai dari pameran sepeda hingga jalan sehat massal, yang semuanya bertujuan untuk meningkatkan kesadaran akan pentingnya transportasi berkelanjutan.<br><br></div><div>Tidak hanya itu, Balikpapan juga mengadakan \"Pekan Hijau\", sebuah rangkaian acara selama seminggu penuh yang didedikasikan untuk promosi gaya hidup berkelanjutan. Dari bazar produk organik hingga lokakarya daur ulang, acara ini menawarkan berbagai kegiatan yang memotivasi warga untuk mengadopsi praktik ramah lingkungan dalam kehidupan sehari-hari mereka. Peristiwa-peristiwa seperti ini tidak hanya mengilhami warga Balikpapan untuk mengambil tindakan nyata dalam memerangi perubahan iklim, tetapi juga menjadi contoh bagi kota-kota lain di seluruh Indonesia dan di seluruh dunia. Dengan upaya bersama dan inovasi yang terus-menerus, Balikpapan membuktikan bahwa transformasi hijau bukanlah impian yang tidak tercapai, tetapi merupakan kenyataan yang dapat diwujudkan untuk mewariskan planet yang lebih baik kepada generasi mendatang.</div>', '663defbee0a0c.png', 'Disetujui', 1);
 
 -- --------------------------------------------------------
 
@@ -115,8 +115,8 @@ CREATE TABLE `event` (
 --
 
 INSERT INTO `event` (`id_event`, `judul`, `deskripsi`, `tanggal`, `tempat`) VALUES
-(1, 'Event balikpapan', 'dibalikpapan -  markoni', '2024-05-23', 'Pantai lamaru 2'),
-(3, 'Event Unmul', 'di unmul', '2024-05-10', 'Unmul1');
+(1, 'Meminimalkan Jejak Karbon: Peristiwa Inovatif di Balikpapan', 'Di tengah kekhawatiran akan dampak perubahan iklim, Balikpapan, sebuah kota yang penting di Kalimantan Timur, menjadi sorotan karena upaya-upaya inovatifnya dalam mengurangi emisi karbon. Peristiwa terbaru di kota ini menunjukkan komitmen yang kuat untuk ', '2024-05-23', 'Jl. Ahmad Yani No.6, Balikpapan, Kalimantan Timur, Indonesia'),
+(3, 'Menciptakan Masa Depan Hijau: Peristiwa Ramah Lingkungan di Samarinda', 'Samarinda, ibu kota Kalimantan Timur yang berkembang pesat, menjadi pusat perhatian karena upaya-upaya luar biasanya dalam menghadapi tantangan perubahan iklim. Melalui serangkaian peristiwa yang inovatif, kota ini menegaskan komitmennya untuk mengurangi ', '2024-05-10', 'Alun Alun Kota Samarinda, Kalimantan Timur, Indonesia');
 
 --
 -- Indexes for dumped tables
@@ -163,19 +163,19 @@ ALTER TABLE `akun`
 -- AUTO_INCREMENT untuk tabel `artikel`
 --
 ALTER TABLE `artikel`
-  MODIFY `id_artikel` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id_artikel` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
 -- AUTO_INCREMENT untuk tabel `daftar_event`
 --
 ALTER TABLE `daftar_event`
-  MODIFY `id_pendaftaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id_pendaftaran` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT untuk tabel `event`
 --
 ALTER TABLE `event`
-  MODIFY `id_event` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id_event` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
